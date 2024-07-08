@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="adopt.css">
+  <title>Adopt a Pet</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <h1 class="logo">Paws & Hearts</h1>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="adopt.html" class="active">Adopt</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="adopt-page">
+    <section class="hero">
+      <div class="container">
+        <h2>Find Your Perfect Companion</h2>
+        <p>Browse our available pets and give them a loving home</p>
+      </div>
+    </section>
+
+    <section class="search-filters">
+      <div class="container">
+        <form id="pet-search-form">
+          <div class="form-group">
+            <label for="pet-type">Pet Type:</label>
+            <select id="pet-type" name="pet-type">
+              <option value="">All</option>
+              <option value="dog">Dogs</option>
+              <option value="cat">Cats</option>
+              <option value="small-animal">Small Animals</option>
+              <option value="bird">Birds</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Enter zip code or city">
+          </div>
+          <div class="form-group">
+            <label for="radius">Search Radius:</label>
+            <select id="radius" name="radius">
+              <option value="10">10 km</option>
+              <option value="25">25 km</option>
+              <option value="50">50 km</option>
+              <option value="100">100 km</option>
+            </select>
+          </div>
+          <button type="submit" class="search-btn">Search</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="pet-results">
+      <div class="container">
+        <h3>Available Pets</h3>
+        <div class="pet-grid">
+          <div class="pet-card">
+            <img src="Assets/Images/petcard1.jpg" alt="Buddy">
+            <h4>Buddy</h4>
+            <p>Small Retriever, 3 years old</p>
+            <p>5 km away</p>
+            <a href="petinfo.html" class="btn">View</a>
+          </div>
+          <div class="pet-card">
+            <img src="Assets/Images/petcard2.jpg" alt="Whiskers">
+            <h4>Whiskers</h4>
+            <p>Tabby Cat, 2 years old</p>
+            <p>3 km away</p>
+            <a href="#" class="btn">View</a>
+          </div>
+          <div class="pet-card">
+            <img src="Assets/Images/rabbit.jpg" alt="Whiney">
+            <h4>Whiney</h4>
+            <p>Rabbit, 1 year old</p>
+            <p>7 km away</p>
+            <a href="#" class="btn">View</a>
+          </div>
+          <div class="pet-card">
+            <img src="Assets/Images/goldfish.jpg" alt="Thangam">
+            <h4>Thangam</h4>
+            <p>Gold Fish, 6 months old</p>
+            <p>1 km away</p>
+            <a href="#" class="btn">View</a>
+          </div>
+          <div class="pet-card">
+            <img src="Assets/Images/lovebirds.jpg" alt="jodi">
+            <h4>Raghav & Raghavi</h4>
+            <p>Love Birds, 1.5 years old</p>
+            <p>5 miles away</p>
+            <a href="#" class="btn">View</a>
+          </div>
+          <div class="pet-card">
+            <img src="Assets/Images/hamster.jpg" alt="kutty">
+            <h4>Kutty</h4>
+            <p>Hamster, 1.5 years old</p>
+            <p>5 km away</p>
+            <a href="#" class="btn">View</a>
+          </div>
+          <div class="pet-card">
+            <img src="Assets/Images/husky.jpg" alt="Mei">
+            <h4>Mei</h4>
+            <p>Husky, 4 years old</p>
+            <p>10 km away</p>
+            <a href="#" class="btn">View</a>
+          </div>
+          <div class="pet-card">
+            <img src="Assets/Images/pitbull.jpg" alt="Rover">
+            <h4>Rover</h4>
+            <p>Pit Bull, 3.5 years old</p>
+            <p>4 km away</p>
+            <a href="#" class="btn">View</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Paws & Hearts Pet Adoption. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
