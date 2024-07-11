@@ -16,7 +16,7 @@
   }
   
   header {
-    background-color: #4a4a4a;
+    background-color: #000000;
     color: #fff;
     padding: 1rem 0;
   }
@@ -128,28 +128,11 @@ ul, ol {
     margin-top: 1rem;
 }
 
-/* Footer styles */
+
 footer {
-    background-color: #4a4a4a;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    .pet-header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .pet-image {
-        margin-right: 0;
-        margin-bottom: 1rem;
-    }
-
-    .pet-details {
-        grid-template-columns: 1fr;
-    }
 }

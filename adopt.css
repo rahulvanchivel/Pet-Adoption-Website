@@ -17,7 +17,7 @@
   }
   
   header {
-    background-color: #4a4a4a;
+    background-color: #000000;
     color: #fff;
     padding: 1rem 0;
   }
@@ -174,7 +174,7 @@
   }
   
   footer {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
